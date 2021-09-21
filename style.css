@@ -1,0 +1,135 @@
+.container{
+    margin-top:10rem;
+}
+.header{
+    display: flex;
+    margin-top:0rem;
+    width:100vw;
+    height:6rem;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #7e57c2, #ab47bc);
+    color:white;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 3px;
+}
+.heading{
+    box-shadow: 0px 10px 100px rgb(156, 156, 156);
+}
+.star{
+    font-size:4rem;
+}
+.gold{
+    color:gold;
+}
+.silver{
+    color:silver;
+}
+.bronze{
+    color:brown;
+}
+.rating{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color:black;
+}
+.rank{
+    background: linear-gradient(45deg, #7e57c2, #ab47bc);
+    color:#fff;
+    border-radius: 0.5rem;
+    margin-bottom:0.5rem;
+}
+.Name{
+    font-size:2rem;
+    color:#171717;
+}
+.rank-box{
+    border-radius:0.5rem;
+}
+.btn{
+    padding:0rem;
+    padding-right:0.5rem;
+    padding-left:0.5rem;
+}
+.topper-1{
+    border-radius:0;
+}
+.img-rank2{
+    width:10rem;
+    height:14rem;
+}
+.img-rank3{
+    width:10rem;
+    height:14rem;
+}
+/* all users css */
+.record{
+   padding-top:1rem;
+   padding-bottom:1rem;
+   transition: all ease 0.2s;
+   border:1px solid #fff;
+   margin-bottom:1rem;
+   box-shadow: 2px 1px 100px rgb(185, 184, 184);
+}
+
+.record:hover{
+    color:#7e57c2;
+}
+/* card hover */
+.rank-box{
+    transition: all ease 0.5s;
+}
+.rank-box:hover{
+    box-shadow: 10px 10px 10px grey;
+    transform: translate3d(0,-2ch, 2ch);
+    transition: all ease 0.5s;
+} 
+.heading{
+    transition: all ease 0.5s;
+}
+.heading:hover{
+    letter-spacing: 1rem;
+    transition: all ease 0.5s;
+}
+/* more info */
+.info{
+    width:20rem;
+    border-radius:1rem;
+    animation: fadeIn;
+    background-color: #171717;
+    opacity:0.6;
+    color:white;
+    right:10rem;
+}
+
+.info .name_on_profile , .username{
+    text-align: center;
+}
+#panel{
+    display: none;
+}
+.stars{
+    color:gold;
+    text-align:center;
+    font-size :2rem;
+}
+.info ul li {
+    list-style-type: none;
+    display: inline;
+    padding:1rem;
+    font-size:1.5rem;
+}
+.basic{
+    text-align: center;
+    color:#fff;
+    border-radius:1rem;
+    animation: fadeIn;
+}
+.display{
+    visibility: visible;
+}
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
